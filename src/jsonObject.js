@@ -1,0 +1,261 @@
+export let quizlist = [
+  {
+    id: "quiz_js_basics",
+    title: "JavaScript",
+    questions: [
+      {
+        id: "js_q1",
+        text: "What is the correct syntax for referring to an external script called 'script.js'?",
+        options: [
+          "<script href='script.js'>",
+          "<script name='script.js'>",
+          "<script src='script.js'>",
+          "<script link='script.js'>",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "js_q2",
+        text: "How do you write 'Hello World' in an alert box?",
+        options: [
+          "alert('Hello World');",
+          "msg('Hello World');",
+          "alertBox('Hello World');",
+          "msgBox('Hello World');",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "js_q3",
+        text: "Which company developed JavaScript?",
+        options: ["Netscape", "Mozilla", "Microsoft", "Sun Microsystems"],
+        correctAnswer: 0,
+      },
+      {
+        id: "js_q4",
+        text: "How do you create a function in JavaScript?",
+        options: [
+          "function = myFunction()",
+          "function:myFunction()",
+          "function myFunction()",
+          "func myFunction()",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "js_q5",
+        text: "How do you call a function named 'myFunction'?",
+        options: [
+          "call function myFunction()",
+          "call myFunction()",
+          "myFunction()",
+          "function myFunction()",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "js_q6",
+        text: "How to write an 'if' statement in JavaScript?",
+        options: ["if i = 5 then", "if (i == 5)", "if i == 5 then", "if i = 5"],
+        correctAnswer: 1,
+      },
+      {
+        id: "js_q7",
+        text: "How does a 'for' loop start?",
+        options: [
+          "for i = 1 to 5",
+          "for (i = 0; i <= 5)",
+          "for (i <= 5; i++)",
+          "for (i = 0; i <= 5; i++)",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: "js_q8",
+        text: "Which of the following is not a reserved word in JavaScript?",
+        options: ["interface", "throws", "program", "short"],
+        correctAnswer: 2,
+      },
+      {
+        id: "js_q9",
+        text: "What is the output of 'console.log(typeof null);'?",
+        options: ["'object'", "'null'", "'undefined'", "'error'"],
+        correctAnswer: 0,
+      },
+      {
+        id: "js_q10",
+        text: "Which method can be used to convert a JSON string to a JavaScript object?",
+        options: [
+          "JSON.parse()",
+          "JSON.stringify()",
+          "JSON.convert()",
+          "JSON.toObject()",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
+  {
+    id: "quiz_react_basics",
+    title: "React.js",
+    questions: [
+      {
+        id: "react_q1",
+        text: "What is React?",
+        options: [
+          "A JavaScript library for building user interfaces",
+          "A framework for building mobile apps",
+          "A backend server",
+          "A database",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "react_q2",
+        text: "Which company maintains React?",
+        options: ["Google", "Microsoft", "Facebook", "Twitter"],
+        correctAnswer: 2,
+      },
+      {
+        id: "react_q3",
+        text: "What is a React component?",
+        options: [
+          "A function or class that returns a piece of the UI",
+          "A server-side script",
+          "A backend API",
+          "A database model",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "react_q4",
+        text: "Which method is used to create components in a class-based component?",
+        options: [
+          "getComponent()",
+          "render()",
+          "componentDidMount()",
+          "constructor()",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "react_q5",
+        text: "How do you pass data to a React component?",
+        options: [
+          "Using arguments",
+          "Using props",
+          "Using state",
+          "Using methods",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "react_q6",
+        text: "What hook is used to manage state in a functional component?",
+        options: ["useState()", "useEffect()", "useContext()", "useReducer()"],
+        correctAnswer: 0,
+      },
+      {
+        id: "react_q7",
+        text: "Which hook would you use to perform side effects in a functional component?",
+        options: ["useState()", "useEffect()", "useContext()", "useReducer()"],
+        correctAnswer: 1,
+      },
+      {
+        id: "react_q8",
+        text: "How can you conditionally render a component in React?",
+        options: [
+          "Using if statements inside the return statement",
+          "Using the ternary operator",
+          "Using a for loop",
+          "Using a while loop",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "react_q9",
+        text: "What is the purpose of keys in React?",
+        options: [
+          "To uniquely identify elements in an array",
+          "To trigger rerendering",
+          "To pass data between components",
+          "To style components",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "react_q10",
+        text: "How can you optimize performance in a React application?",
+        options: [
+          "By using higher-order components",
+          "By using inline functions",
+          "By memoizing components with React.memo",
+          "By avoiding React hooks",
+        ],
+        correctAnswer: 2,
+      },
+    ],
+  },
+  {
+    id: "quiz_nodejs_basics",
+    title: "Node.js",
+    questions: [
+      {
+        id: "node_q1",
+        text: "What is Node.js?",
+        options: [
+          "A JavaScript runtime built on Chrome's V8 JavaScript engine",
+          "A framework for building web applications",
+          "A database management system",
+          "A frontend library",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "node_q2",
+        text: "Which command is used to start a Node.js REPL session?",
+        options: ["npm start", "node", "node console", "node repl"],
+        correctAnswer: 1,
+      },
+      {
+        id: "node_q3",
+        text: "Which of the following is a built-in Node.js module?",
+        options: ["express", "fs", "react", "redux"],
+        correctAnswer: 1,
+      },
+      {
+        id: "node_q4",
+        text: "How do you import a module in Node.js?",
+        options: [
+          "import module from 'module';",
+          "include 'module';",
+          "require('module');",
+          "load 'module';",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "node_q5",
+        text: "Which method is used to create a server in Node.js?",
+        options: [
+          "http.createServer()",
+          "http.initServer()",
+          "http.newServer()",
+          "http.startServer()",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "node_q6",
+        text: "Which of the following is true about Node.js?",
+        options: [
+          "Node.js is a client-side framework.",
+          "Node.js is a server-side framework.",
+          "Node.js is a server-side runtime environment.",
+          "Node.js is a server-side scripting language.",
+        ],
+        correctAnswer: 2,
+      },
+    ],
+  },
+];
